@@ -292,7 +292,6 @@ input[type="search"]:focus{
      overflow: hidden;
      padding: 5px;
      box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
-     
  }
 
  .aplus_link{
@@ -483,6 +482,46 @@ footer{
     margin-bottom: 14px;
 }
 
+
+@media only screen and (max-width :992px) and (min-width: 768px) {
+    .hebergements_container{
+        flex-direction: column;
+        width: 100%;
+    }
+
+    #search{
+        width: 100%;
+    }
+
+
+    .hebergements_city ul{
+        flex-direction: column;
+    }
+
+    .hebergements_city ul li img{
+        height: 150px;
+    }
+
+    .activites_list ul{
+        flex-direction: column;
+    }
+
+    .hebergements_city, .activites_container, .hebergements_pop_list, .filters-search, footer{
+        width: 100%;
+    }
+
+    .hebergements img, .activites img{
+        height: 250px;
+        min-height: 250px;
+    }
+   
+    footer{
+        height: 100%;
+        
+    }
+
+    }
+
 @media only screen and (max-width :768px) {
     .main_container, .footer_container{
         padding: 0;
@@ -595,7 +634,6 @@ footer{
     .hebergements_city, .activites_container, .hebergements_pop_list, .filters-search, footer{
         width: 100%;
         padding: 20px 30px;
-        border-radius: 0;
     }
     .hebergements_pop_list{
         order: -1;
