@@ -17,13 +17,6 @@
     padding: 0 50px;
 }
 
-.footer_container{
-    padding-top: 50px;
-    padding-right: 400px;
-    display: flex;
-    justify-content: space-between;
-}
-
 body{
     font-family: 'Raleway', sans-serif;
 }
@@ -109,7 +102,7 @@ h1{
 
 .search{
     display: flex;
-    margin: 32px 0 32px 0;
+    margin: 18px 0 32px 0;
     width: 100%;
 }
 
@@ -122,10 +115,11 @@ h1{
 }
 
 input[type="search"]{
+    width: 300px;
     border: 1px solid #f2f2f2;
     border-left: none;
     border-right: none;
-    padding: 10px;
+    padding: 10px 20px;
     box-shadow: none;
     caret-color: #0065fc;
     font-size: 16px;
@@ -302,8 +296,10 @@ input[type="search"]:focus{
  }
 
  .aplus_link{
+     display: block;
      color: black;
      font-weight: 600;
+     margin-top: 38px;
  }
 
  .hebergements img{
@@ -469,15 +465,22 @@ footer{
     background-color: #f2f2f2;
 }
 
+.footer_container{
+    padding-top: 50px;
+    display: flex;
+    justify-content: flex-start;
+    column-gap: 15%;
+}
+
 .footer_container h4{
-    margin-bottom: 10px;
+    margin-bottom: 18px;
 }
 
 .footer_container ul li a{
     color: black;
 }
 .footer_container ul li{
-    margin-bottom: 10px;
+    margin-bottom: 14px;
 }
 
 @media only screen and (max-width :768px) {
@@ -570,10 +573,6 @@ footer{
         text-rendering: auto;
         -webkit-font-smoothing: antialiased;
       }
-
-    .searchbtn::after{
-        
-    }
   
 
     .filters{
@@ -620,6 +619,7 @@ footer{
 
    .footer_container{
        flex-direction: column;
+       row-gap: 24px;
    }
    
    footer{
