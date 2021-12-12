@@ -634,6 +634,7 @@ footer{
     .hebergements_city, .activites_container, .hebergements_pop_list, .filters-search, footer{
         width: 100%;
         padding: 20px 30px;
+        border-radius: 0;
     }
     .hebergements_pop_list{
         order: -1;
