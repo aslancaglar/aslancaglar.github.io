@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <script src="https://kit.fontawesome.com/e07c1560b3.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>Booki</title>
 </head>
 <body>
@@ -14,23 +14,20 @@
         <a href="#"><img class="logo" src="/images/logo/Booki.png" alt=""></a>
         <nav>
             <ul>
-                <li><a id="nav_first_link" href="index.html">Hebergements</a></li>
-                <li><a href="#">Activites</a></li>
+                <li><a id="nav_first_link" href="#hebergements">Hebergements</a></li>
+                <li><a href="#activites">Activites</a></li>
             </ul>
         </nav>
     </header>
 
     <section class="filters-search">
-        <H1>Trouvez votre hébergement pour des vacancesde reve</H1>
+        <H1>Trouvez votre hébergement pour des vacances de reve</H1>
         <p>En plein centre ville ou en plein nature</p>
         <form action="#" class="search">
-            <label for="search"><i class="fa fa-map-marker" aria-hidden="true"></i></label>
+            <label for="search"><i class="fas fa-map-marker-alt"></i></label>
             <input type="search" id="search" placeholder="Marseille, France">
-            <button type="submit" class="searchbtnmob"><i class="fa fa-search" aria-hidden="true"></i></button>
-            <input class="searchbtn" type="submit" value="Rechercher">
+            <button class="searchbtn" type="submit"></button>
         </form>
-
-        <p class="info"><i class="fa fa-info-circle" aria-hidden="true"></i></i>Plus de 500 logements sont disponibles sur cette ville.</p>
 
     <div class="filters">
         <h3>Filtres</h3>
@@ -43,9 +40,14 @@
        </ul>
    </div>
    </div>
+   <div class="info">
+    <i class="fas fa-info"></i>
+    <p>Plus de 500 logements sont disponibles sur cette ville.</p>
+   </div>
+   
     </section>
     <main>
-        <div class="hebergements_container">
+        <div class="hebergements_container" id="hebergements">
             <div class="hebergements_city">
             <h3>Hébergements à Marseille</h3>
             <ul>
@@ -71,7 +73,7 @@
         </div>
         </div>
 
-        <div class="activites_container">
+        <div class="activites_container" id="activites">
             <h3>Activités à Marseille</h3>
             <div class="activites_list">
                 <ul>
