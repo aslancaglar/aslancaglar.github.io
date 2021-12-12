@@ -631,11 +631,22 @@ footer{
         width: 100%;
     }
 
-    .hebergements_city, .activites_container, .hebergements_pop_list, .filters-search, footer{
+    .hebergements_city, .activites_container, .hebergements_pop_list, .filters-search, .footer_container{
         width: 100%;
-        padding: 38px 32px;
+        padding-left: 32px;
+        padding-right: 32px;
         border-radius: 0;
     }
+
+    .hebergements_city, .activites_container, .hebergements_pop_list, .footer_container{
+        width: 100%;
+        padding-top: 40px;
+        padding-bottom: 40px;
+        border-radius: 0;
+    }
+
+
+
     .hebergements_pop_list{
         order: -1;
     }
