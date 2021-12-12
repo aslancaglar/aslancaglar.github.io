@@ -633,7 +633,7 @@ footer{
 
     .hebergements_city, .activites_container, .hebergements_pop_list, .filters-search, footer{
         width: 100%;
-        padding: 20px 30px;
+        padding: 38px 32px;
         border-radius: 0;
     }
     .hebergements_pop_list{
@@ -647,6 +647,11 @@ footer{
     .hebergements_city ul{
         flex-direction: column;
     }
+
+    .activites_container{
+        margin: 0;
+    }
+
 
     .activites_list ul{
         flex-direction: column;
